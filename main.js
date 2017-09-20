@@ -49,7 +49,7 @@ function openclosesettings() {
 
 function geturl() {
 	var lines = document.getElementById("typenamestextarea").value.split(/\n/);
-	document.getElementById("url").value = window.location.hostname;
+	document.getElementById("url").value = window.location.hostname + "/random/";
 	for (var i=0; i < lines.length; i++) {
 		if (i == 0) {
 			document.getElementById("url").value += "?n"+i+"="+lines[i];
