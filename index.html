@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body onresize="adjustsize()">
+		<div id="container">
+			<div id="settingsbutton" onclick="openclosesettings()"></div>
+			<div id="randomstudentcontainer"></div>
+			<div id="namescontainer">
+				<div id="nameslist"></div>
+				<div id="groupscontainer"></div>
+				<div id="choosenamebutton" onclick="randomname();">Random Student</div>
+				<div id="choosegroupsbutton" onclick="randomgroups();">Random Groups</div>
+				<div id="groupsizes">Group Sizes:</div>
+				<input id="numberofgroups" type="number"></input>
+			</div>
+			<div id="settingscontainer">
+				<textarea id="typenamestextarea"></textarea>
+				<div id="geturlbutton" onclick="geturl()">Get URL:</div>
+				<input id="url" type="url"></input>
+			</div>
+		</div>
+		<script src="main.js"></script>
+		<script>initialize();</script>
+	</body>
+</html>

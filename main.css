@@ -1,0 +1,149 @@
+#container {
+	position: relative;
+	width: 700px;
+	min-width: 500px;
+	height: 400px;
+	min-height: 400px;
+	margin: 0px auto;
+	border-style: solid;
+    border-color: #aaaaaa;
+	background-color: #79cde0;
+}
+
+#settingscontainer {
+	position: relative;
+	width: 90%;
+	height: 98%;
+	margin-left: 2%;
+	display: none;
+}
+
+#settingsbutton {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 50px;
+	height: 50px;
+	background-image: url('icon.png');
+}
+
+#namescontainer {
+	position: relative;
+	width: 90%;
+	height: 98%;
+	margin-left: 2%;
+}
+
+#groupscontainer {
+	position: relative;
+	width: 90%;
+	height: 90%;
+	margin-left: 2%;
+	display: none;
+	overflow: auto;
+}
+
+.groupwrapper {
+	position: relative;
+	width: 98%;
+	min-height: 40px;
+	margin-top: 5px;
+	border-style: solid;
+    border-width: 3px;
+	border-color: #4a63b5;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+#nameslist {
+	position: relative;
+	width: 97%;
+	height: 90%;
+}
+
+.namelistbuttons {
+	float: left;
+	min-width: 6px;
+	min-height: 14px;
+	background-color: #3ed67a;
+	margin: 4px;
+	font-size: 30px;
+	border-radius: 5px;
+}
+
+.randomnamebutton {
+	min-width: 6px;
+	min-height: 14px;
+	background-color: #3ed67a;
+	margin: 4px;
+	font-size: 40px;
+	border-radius: 5px;
+	display: table;
+	margin: 0px auto;
+}
+
+#choosenamebutton {
+	float: left;
+	width: 20%;
+	height: 8%;
+	margin-right: 2%;
+	background-color: #3ed67a;
+	border-radius: 5px;
+}
+
+#choosegroupsbutton {
+	float: left;
+	width: 20%;
+	height: 8%;
+	margin-right: 2%;
+	background-color: #3ed67a;
+	border-radius: 5px;
+}
+
+#groupsizes {
+	float: left;
+	width: 15%;
+	height: 8%;
+}
+
+#numberofgroups {
+	float: left;
+	width: 10%;
+	height: 6%;
+}
+
+#typenamestextarea {
+	position: relative;
+	width: 97%;
+	height: 90%;
+	background-color: #ffffff;
+}
+
+#geturlbutton {
+	float: left;
+	width: 12%;
+	height: 8%;
+	margin-right: 2%;
+	background-color: #3ed67a;
+	border-radius: 5px;
+}
+
+#url {
+	float: left;
+	width: 50%;
+	height: 5%;
+}
+
+#randomstudentcontainer {
+	position: absolute;
+	top: 30%;
+	left: 0px;
+	right: 0px;
+	width: 70%;
+	height: 30%;
+	margin: 0px auto;
+	z-index: 5;
+	display: none;
+}
+
+
